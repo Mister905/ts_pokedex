@@ -43,7 +43,22 @@ function Index() {
             {pokemon_list_row.map((pokemon, i) => {
               return (
                 <div key={i}>
-                  <div className="col m4 card custom-card">{pokemon!.name}</div>
+                  <div className="col m4 card">
+                    <div className="card-image">
+                      <img src={pokemon!.image} />
+                      <span className="card-title">{pokemon!.name}</span>
+                    </div>
+                    <div className="card-content">
+                      <span className="badge badge-pill">Primary</span>
+
+                      <div className="progress">
+                        <div
+                          className="determinate"
+                          style={{ width: "70%" }}
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               );
             })}

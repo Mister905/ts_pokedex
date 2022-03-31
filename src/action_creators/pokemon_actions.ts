@@ -33,7 +33,6 @@ export const get_pokemon_list =
 export const get_pokemon_stats =
   (pokemon_list: (I_pokemon | undefined)[] | null) =>
   async (dispatch: Dispatch<Pokemon_Action>) => {
-   
     let pokemon_stats_list = await Promise.all(
       pokemon_list!.map(async (pokemon, i) => {
         try {
@@ -60,8 +59,6 @@ export const get_pokemon_stats =
       type: Action_Type.GET_POKEMON_STATS_LIST,
       payload: { pokemon_list: pokemon_stats_list },
     });
-
-    
 
     // console.log(pokemon_list);
   };
