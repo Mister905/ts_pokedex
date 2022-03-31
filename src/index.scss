@@ -1,0 +1,16 @@
+@import "./components/header/Header.scss";
+@import "./components/index/Index.scss";
+@import "./components/profile/Profile.scss";
+@import "./components/preloader/Preloader.scss";
+
+* {
+  font-family: "Play", sans-serif;
+}
+
+body {
+  background: #2d5597;
+}
+
+.mt-50 {
+  margin-top: 50px !important;
+}

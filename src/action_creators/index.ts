@@ -1,0 +1,1 @@
+export * as pokemon_action_creators from "./pokemon_actions";
