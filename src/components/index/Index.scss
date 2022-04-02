@@ -18,3 +18,56 @@
   border-radius: 10rem !important;
   padding-bottom: 6px !important;
 }
+
+.pokemon-name {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.custom-badge-pill {
+  width: 100%;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.custom_progress_hp {
+  background-color: #ffc6c6 !important;
+}
+
+.custom_determinate_hp {
+  background-color: #b12323 !important;
+}
+
+.custom_progress_atk {
+  background-color: #ffe9c6 !important;
+}
+
+.custom_determinate_atk {
+  background-color: #fca826 !important;
+}
+
+.custom_progress_def {
+  background-color: #bfd0f8 !important;
+}
+
+.custom_determinate_def {
+  background-color: #0b3eb2 !important;
+}
+
+.custom_progress_spd {
+  background-color: #d4fcbc !important;
+}
+
+.custom_determinate_spd {
+  background-color: #54e200 !important;
+}
+
+.custom-badge-pill {
+    margin-top: 10px;
+}
